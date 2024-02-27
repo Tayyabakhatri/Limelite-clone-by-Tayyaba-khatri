@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "dm";
+    src: url(fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+*{margin: 0;
+padding: 0;}
+
+.phoneicon img{
+width: 20px;
+height: 20px;
+margin-right: 10px;
+
+}
+.phoneicon{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.phoneicon input{
+    border-radius: 8px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 97.4%;
+    height: 40px;
+    padding-left:20px ;
+    padding-right: 20px;
+    align-items: center;
+    /* position: fixed; */
+    /* top: 0px; */
+}
+.twitter>a>i{
+    color: white;
+}
+.brandname{
+    color: white;
+}
+.catagories{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    width: 97.4%;
+    height: 40px;
+    align-items: center;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+li{
+   list-style-type: none;
+   
+}
+.list>a{
+    text-decoration: none;
+    color: gray;
+    margin-right: 40px;
+    font-family: dm;
+}
+#red{
+    color: red;
+}
+.list{
+    display: flex;
+}
+.catagories>div>a>i{
+    color: gray;
+}
+.poster>div>img{
+    width: 100%;
+    height: 60vh;
+}
+.poster>div>img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+   
+}
+.poster>div{
+  display: flex;
+  height: 65vh;
+  align-items: center;
+  border-bottom: 2px solid rgb(92, 92, 92);
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+/* .pictures>div{
+   
+   
+   
+} */
+.pictures>div>img{
+    border-radius: 360px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.items>h1{
+    font-family: dm;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+.pictures>div>p{
+    font-family: sans-serif;
+    text-align: center;
+}
+.items{
+    border-bottom: 2px solid grey;
+   
+}
+.buttons>.buttoncontainer>button{
+    border: none;
+    height: 60px;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    box-shadow: 0px 0.7px 3px 0.1px rgb(195, 192, 192);
+    border-radius: 16px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: rgb(247, 247, 248);
+    text-transform: capitalize;
+   
+    
+   
+}
+.buttons>.buttoncontainer>button::before{
+content:"💖" ;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.buttoncontainer{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid  rgb(195, 192, 192) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.arrival{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row1{
+display: flex;
+justify-content: space-around;
+}
+.row2{
+    display: flex;
+justify-content: space-around;
+object-fit: cover;
+margin-top: 30px;
+}
+.row2>div>img{
+width:250px;
+box-shadow: 0px 0px 8px 0.8px rgb(242, 204, 204) ; 
+}
+.row2>div>img:hover{
+    cursor: "👈";
+   
+}
